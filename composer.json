@@ -25,6 +25,8 @@
         "arcanedev/log-viewer": "^8.0",
         "creativeorange/gravatar": "^1.0",
         "davejamesmiller/laravel-breadcrumbs": "^5.2",
+        "diglactic/laravel-breadcrumbs": "^6.1",
+        "fakerphp/faker": "^1.9",
         "fruitcake/laravel-cors": "^1.0",
         "kyslik/column-sortable": "^6.1",
         "labs64/netlicensingclient-php": "^2.4",
@@ -32,7 +34,8 @@
         "laravel/socialite": "^5.4",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
-        "laravelcollective/html": "^6.1.0"
+        "laravelcollective/html": "^6.1.0",
+        "symfony/mailer": "^5.4"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
