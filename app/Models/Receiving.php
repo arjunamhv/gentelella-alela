@@ -13,6 +13,9 @@ class Receiving extends Model
         'receiving_date',
         'quantity_received',
     ];
+    protected $casts = [
+        'receiving_date' => 'datetime',
+    ];
 
     public function purchaseOrder()
     {

@@ -11,8 +11,12 @@ class PurchaseInvoice extends Model
     protected $fillable = [
         'purchase_order_id',
         'invoice_date',
-        'amount_due',
+        'total_amount',
     ];
+    protected $casts = [
+        'invoice_date' => 'datetime',
+    ];
+
 
     public function purchaseOrder()
     {

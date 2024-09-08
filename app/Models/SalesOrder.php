@@ -10,8 +10,14 @@ class SalesOrder extends Model
     use HasFactory;
     protected $fillable = [
         'customer_id',
+        'product_id',
+        'quantity',
         'order_date',
         'total_amount',
+        'status',
+    ];
+    protected $casts = [
+        'order_date' => 'datetime',
     ];
 
     public function customer()
@@ -24,8 +30,8 @@ class SalesOrder extends Model
         return $this->hasMany(SalesInvoice::class);
     }
 
-    public function products()
+    public function product()
     {
-        return $this->belongsToMany(Product::class, 'sales_order_details');
+        return $this->belongsTo(Product::class);
     }
 }

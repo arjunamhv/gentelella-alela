@@ -35,6 +35,69 @@
                 </ul>
             </div>
             <div class="menu_section">
+                <h3>{{ __('views.backend.section.navigation.sub_header_4') }}</h3>
+                <ul class="nav side-menu">
+                    <li>
+                        <a href="{{ route('admin.products') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_4_1') }}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('admin.customers') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_4_2') }}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('admin.suppliers') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_4_3') }}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu_section">
+                <h3>{{ __('views.backend.section.navigation.sub_header_5') }}</h3>
+                <ul class="nav side-menu">
+                    <li>
+                        <a href="{{ route('admin.sales.orders') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_5_1') }}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('admin.sales.invoices') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_5_2') }}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu_section">
+                <h3>{{ __('views.backend.section.navigation.sub_header_6') }}</h3>
+                <ul class="nav side-menu">
+                    <li>
+                        <a href="{{ route('admin.purchase.orders') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_6_1') }}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('admin.purchase.receiving') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_6_2') }}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('admin.purchase.invoice') }}">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            {{ __('views.backend.section.navigation.menu_6_3') }}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu_section">
                 <h3>{{ __('views.backend.section.navigation.sub_header_1') }}</h3>
                 <ul class="nav side-menu">
                     <li>

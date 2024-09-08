@@ -11,7 +11,10 @@ class SalesInvoice extends Model
     protected $fillable = [
         'sales_order_id',
         'invoice_date',
-        'amount_due',
+        'total_amount',
+    ];
+    protected $casts = [
+        'invoice_date' => 'datetime',
     ];
 
     public function salesOrder()

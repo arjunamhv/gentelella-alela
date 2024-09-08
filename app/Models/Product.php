@@ -14,6 +14,10 @@ class Product extends Model
         'price',
         'stock',
     ];
+    public function supplier()
+    {
+        return $this->belongsTo(Supplier::class);
+    }
     public function salesOrders()
     {
         return $this->belongsToMany(SalesOrder::class, 'sales_order_details');
